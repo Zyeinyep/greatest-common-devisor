@@ -7,6 +7,7 @@ int main()
     printf("Enter numbers. To exit enter 0\n");
     while(1)    // infinite loop to take input
     {
+
         scanf("%d", &x);
         if(x < 1)
             break;
